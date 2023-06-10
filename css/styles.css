@@ -1,0 +1,176 @@
+/**************tag selector******/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+/* sections */
+
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+/* navbar */
+.container-fluid {
+  padding: 0 10%;
+}
+
+.navbar {
+  padding-bottom: 4rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+.nav-link {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* title */
+.title-heading {
+  line-height: 1.25;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img6 {
+  width: 50%;
+  transform: rotate(30deg);
+  position: relative;
+  left: 30%;
+  top: 50px;
+}
+
+#title {
+  text-align: left;
+}
+
+@media (max-width: 1000px) {
+  .title-img6 {
+    transform: rotate(0);
+    position: static;
+    width: 40%;
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+/* features */
+
+.f-h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.f-col {
+  padding: 5%;
+}
+.f-p {
+  color: #8f8f8f;
+}
+.features-i {
+  color: #ef8172;
+}
+
+.features-i:hover {
+  color: #ff4c68;
+}
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+/* testimonial */
+
+#testimonials {
+  color: #fff;
+}
+
+.t-img {
+  width: 17%;
+  padding: 10px;
+  border-radius: 100%;
+  margin: 10px;
+}
+.carousel-item {
+  padding: 7% 16%;
+}
+
+.testimonial-text {
+  line-height: 2;
+  font-weight: 600;
+  font-size: 2rem;
+}
+/* press */
+
+#press {
+  padding-bottom: 30px;
+}
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 80px;
+}
+.pricing-coloum {
+  padding: 3% 2%;
+}
+
+.pricing-heading {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.col-head {
+  line-height: 2;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+/* cta */
+
+#cta {
+  padding: 7% 15%;
+}
+.cta-btn {
+  margin: 40px 10px 0;
+}
+
+/* footer */
+
+#footer {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.social {
+  margin: 0 9px 20px;
+}
